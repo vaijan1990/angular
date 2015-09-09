@@ -1,0 +1,33 @@
+<header>
+    <nav>
+        <a href="feedview.html"> <img id="navimg" src="menu.png" alt="menuicon"><span id="navtext">&nbsp;&nbsp;&nbsp;&nbsp;DETAIL</span><img src="logo.jpg" width="45" height="25" alt="logo" align="center"><img id="navimg1" src="nav.png" width="25" height="25" alt="nav" /> </a>
+      </nav>     
+      
+  
+    </header>
+
+<div class="itmList">
+
+  <div class="detailview">
+
+      <img class="mainimg" ng-src="{{mainImage}}" alt={{items.title}} width="100%">
+      <div class="detailcaption">
+          <p id="detailtitle">{{items.title}} </p>   
+          <br><br><br><br>
+    </div>
+  
+     <span id="detailtime"><img src="clock.jpg" width="15" height="15" alt="clock"/>
+   {{convertToDate(items.createdAt)| date: 'yyyy-MM-dd'}} </span>
+  <table class="detailcontact" cellpadding="30">
+    <tbody >
+      <tr>
+        <td>{{items.company.title}}</td>
+        <td>{{items.company.email}}
+          <br>{{items.company.phone}}</td>
+      </tr>
+    </tbody>
+  </table>
+    <p id="detailelements"> {{items.about}}</p> 
+
+</div>
+</div>

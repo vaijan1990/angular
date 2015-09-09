@@ -1,0 +1,23 @@
+<header>
+    <nav>
+        <a href="feedview.html"> <img id="navimg" src="menu.png" alt="menuicon"><span id="navtext">&nbsp;&nbsp;&nbsp;&nbsp;FEED</span><img src="logo.jpg" width="45" height="25" alt="logo" align="center">
+        </a>
+      </nav>      
+        <h1 align="center">Popular</h1>   
+  
+    </header>
+
+<div class="itmList">
+  <ul>
+    <li id="feedimg" ng-repeat="item in items" >
+      <div class="items">
+        <a href="#/{{item.title}}"> <img ng-src="{{item.picture}}" alt="{{item.title}}" style="display: block" > </a>
+        <div class="caption">
+            <p>{{item.title}}</p>
+            <p>{{convertToDate(item.createdAt)| date: 'yyyy-MM-dd'}} </p>        
+
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,302 @@
+     /**********************************
+GENERAL
+***********************************/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  border: 0;
+ 
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3, h4 {
+  margin: 0 0 1em 0;
+}
+
+
+
+
+
+/**********************************
+HEADING
+***********************************/
+
+header {
+  float: left; 
+  padding: 5px 0 0 0;
+       
+  width: 100%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: sans-serif;   
+  font-weight: normal;
+  line-height: 0.8em;
+  font-size: smaller;
+  margin-top: 0px;
+  padding: 30px;
+}
+h2 {
+ 
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+
+
+/**********************************
+NAVIGATION
+***********************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;  
+  font-size: small;
+  margin-top: -25px;
+  
+  
+
+}
+
+#navimg {
+    width: 25px;
+    height: 25px;
+    float: left;
+   
+     
+   
+    
+}
+#navimg1 {
+    width: 25px;
+    height: 25px;
+    float:right;
+   
+     
+   
+    
+}
+#navtext {
+    float: left;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+/*******login form*****/
+
+.login-form {
+   margin-top: 250px; 
+    background-image: url("bg.jpg") ;    
+    background-size: cover;
+    background-position: center center;
+     background-attachment: fixed;
+     
+}
+
+.logindetail{
+    
+    position:relative;  
+       
+    padding-right:30px;
+ 
+   
+}
+
+
+input {
+    opacity: 0.5;
+    border-radius: 3em;
+    border: none;
+    margin: 0em;
+    padding: 0.8em;    
+    color: #A2A2A2;
+    font-size: 1.1em;
+    padding-left: 1.5em;    
+    outline: none;
+    box-shadow: 0 2px 6px -5px hsl(0, 0%, 40%), inset 0px 4px 6px -5px hsl(0, 0%, 2%)
+}
+
+
+
+  
+
+
+/**********************************
+PAGE: FEEDVIEW
+***********************************/
+.items {    
+    position:relative;
+    width: 100%;  
+    margin-top:  -10px;   
+    padding: 0px;
+    
+        
+}
+
+#feedimg {
+   display: inline-block;
+  list-style-type: none; 
+ 
+  cursor: pointer; 
+}
+
+#feedimg:hover {
+     opacity: 0.5;
+}
+
+.caption {
+    position: absolute; 
+    width: 100%; 
+    left: 0;     
+    bottom: 0;
+    right: 0; 
+    background: black; 
+    color:white;
+    opacity: 0.3;  
+    font-family: serif;
+    font-weight: bold;
+    
+}
+
+
+
+/**********************************
+PAGE: DETAIL VIEW
+***********************************/
+
+.detailview {
+    position:relative; 
+    margin-top: 20px;    
+     
+}
+
+.detailcaption {
+    position: absolute; 
+    width: 100%; 
+    left: 0;     
+    bottom: 0;
+    right: 0; 
+    background: black; 
+    color:white;
+    opacity: 0.3;  
+    font-weight: bold;
+    
+}
+#detailtitle{
+    font-family: sans-serif;
+    margin-left: 150px;
+    margin-top: 100px;
+    color: #FFFFFF;    
+    font-size: 50px;
+   
+}
+.detailcontact{   
+    position: absolute;    
+    top: 50px;
+    right: 30px;
+    background: black; 
+    color:white; 
+    padding: 50px; 
+    font-family: sans-serif;
+    font-size: medium;    
+    
+}
+#detailtime{
+    
+    margin-left: 150px;
+}
+#detailelements{
+    margin-left: 150px;
+}   
+ 
+    
+
+
+/**********************************
+COLORS
+***********************************/
+
+/* site body */
+body {
+  background-color: #fff;
+
+}
+
+/* grey header */
+header {
+  border-color: #ecf0f1;
+}
+
+/* nav background on mobile */
+nav {
+  background: #FF4500;
+  color:#FFFAF0;
+}
+
+/* logo text */
+h1, h2 {
+  color:#FFFAF0;
+  background: #FF6347;
+  
+  
+}
+
+/* links */
+a {
+  color: #6ab47b;
+}
+
+/* nav link */
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color: #34495e;
+}
+/* detailview */
+#detailtime{
+    color: #708090;
+}
+.detailcontact{
+    background: #FF4500;
+}
+
+
+/* ======= Footer ======= */
+footer {
+  
+}
+
